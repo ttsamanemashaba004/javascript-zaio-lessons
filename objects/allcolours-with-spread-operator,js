@@ -1,0 +1,17 @@
+const primaryColors = {
+    red: 'red',
+    blue: 'blue'
+};
+
+const secondaryColors = {
+    grey: 'grey',
+    black: 'black'
+}
+
+const allColors = {
+    //use spread operato here
+    ...primaryColors,
+    ...secondaryColors
+}
+
+console.log(allColors);
